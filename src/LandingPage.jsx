@@ -67,8 +67,10 @@ const LandingPage = () => {
                 <div className="px-0 py-5 mt-5 container-fluid">
                     <Patrocinadores />
                 </div>
-                <div className="px-0 py-5 mt-5 container-fluid bg-secondary">
-                    <NuestrosProductos />
+                <div className="mt-5 pt-5" id="nuestros-productos">
+                    <div className="px-0 py-5 mt-5 container-fluid bg-secondary">
+                        <NuestrosProductos />
+                    </div>
                 </div>
                 <div className="px-0 py-5 mt-5 container-fluid" id="contacto">
                     <Contacto />

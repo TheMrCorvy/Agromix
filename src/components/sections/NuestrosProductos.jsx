@@ -15,7 +15,7 @@ import {
 
 export default function NuestrosProductos() {
     return (
-        <Container id="nuestros-productos">
+        <Container>
             <Row className="justify-content-around">
                 <Col lg="12" className="text-center">
                     <h2 class="h2">Nuestros Productos</h2>
