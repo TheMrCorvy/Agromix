@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
     Collapse,
     Navbar,
@@ -60,7 +60,7 @@ class Header extends React.Component {
                 break;
 
             default:
-                console.log(boton);
+                break;
         }
     };
 
@@ -80,6 +80,9 @@ class Header extends React.Component {
                 this.setState({
                     mouseOverInstagram: false
                 });
+                break;
+
+            default:
                 break;
         }
     };
@@ -106,7 +109,7 @@ class Header extends React.Component {
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
                                     <a
-                                        href="#"
+                                        href="/"
                                         onClick={e => this.goToSection(e, 'quienes-somos')}
                                         className="nav-link text-white">
                                         Quiénes Somos
@@ -114,7 +117,7 @@ class Header extends React.Component {
                                 </NavItem>
                                 <NavItem>
                                     <a
-                                        href="#"
+                                        href="/"
                                         onClick={e => this.goToSection(e, 'nuestros-productos')}
                                         className="nav-link text-white">
                                         Nuestros Productos
@@ -122,7 +125,7 @@ class Header extends React.Component {
                                 </NavItem>
                                 <NavItem>
                                     <a
-                                        href="#"
+                                        href="/"
                                         onClick={e => this.goToSection(e, 'contacto')}
                                         className="nav-link text-white">
                                         Contacto
