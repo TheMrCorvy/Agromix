@@ -1,16 +1,6 @@
+import EmailForm from "components/Email/EmailForm"
 import React, { Fragment, Component } from "react"
-import {
-	Container,
-	Row,
-	Col,
-	Card,
-	CardBody,
-	Form,
-	FormGroup,
-	Input,
-	Label,
-	Button,
-} from "reactstrap"
+import { Container, Row, Col, Card, CardBody } from "reactstrap"
 
 export default class Contacto extends Component {
 	constructor(props) {
@@ -79,93 +69,14 @@ export default class Contacto extends Component {
 								height="450"
 								frameBorder="0"
 								style={{ border: 0 }}
-								allowFullscreen=""
+								allowFullScreen=""
 								aria-hidden="false"
 								tabIndex="0"
 								title="agromix"
 							></iframe>
 						</Col>
 						<Col lg="8" className="mt-5">
-							<Card>
-								<CardBody>
-									<Form>
-										<Row>
-											<Col lg="12">
-												<h2 className="h2 text-center">
-													Envíenos su Consulta
-												</h2>
-											</Col>
-											<Col lg="6">
-												<FormGroup>
-													<Label>
-														Su Nombre Completo:
-													</Label>
-													<Input
-														type="text"
-														name="name"
-														placeholder="Ingrese su Nombre"
-													/>
-												</FormGroup>
-											</Col>
-											<Col lg="6">
-												<FormGroup>
-													<Label>Su Email:</Label>
-													<Input
-														type="email"
-														name="email"
-														placeholder="Ingrese su Email"
-													/>
-												</FormGroup>
-											</Col>
-											<Col lg="6">
-												<FormGroup>
-													<Label>
-														Asunto de su Consulta:
-													</Label>
-													<Input
-														type="text"
-														name="subject"
-														placeholder="Ingrese el Asunto"
-													/>
-												</FormGroup>
-											</Col>
-											<Col lg="6">
-												<FormGroup>
-													<Label>Su Teléfono:</Label>
-													<Input
-														type="text"
-														name="phoneNumber"
-														placeholder="Ingrese su Número de Teléfono"
-													/>
-												</FormGroup>
-											</Col>
-											<Col lg="12">
-												<FormGroup>
-													<FormGroup>
-														<Label>
-															Su Consulta:{" "}
-														</Label>
-														<Input
-															type="textarea"
-															name="message"
-															rows="5"
-															placeholder="Ingrese la consulta que desea enviar"
-														/>
-													</FormGroup>
-												</FormGroup>
-											</Col>
-											<Col lg="12" className="text-right">
-												<Button
-													color="link"
-													className="m-2 btn-link-success"
-												>
-													<span>ENVIAR CONSULTA</span>
-												</Button>
-											</Col>
-										</Row>
-									</Form>
-								</CardBody>
-							</Card>
+							<EmailForm />
 						</Col>
 						<Col lg="4" className="mt-5">
 							<img
