@@ -14,6 +14,7 @@ const Routes = () => {
                         <div className="w-50 mx-auto">Cargando...</div>
                     </div>
                 }>
+                {/* algo */}
                 <Layout>
                     <Switch>
                         <Redirect from="/agromix" to="/" />
