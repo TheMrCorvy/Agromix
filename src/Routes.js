@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { Layout } from './layout-blueprints';
 
-const LandingPage = lazy(() => import('./example-pages/LandingPage'));
+const LandingPage = lazy(() => import('./LandingPage'));
 
 const Routes = () => {
     return (
@@ -16,7 +16,7 @@ const Routes = () => {
                 }>
                 <Layout>
                     <Switch>
-                        <Redirect from="/bamburgh-react-ui-kit-reactstrap-free-demo" to="/" />
+                        <Redirect from="/agromix" to="/" />
                         <Route exact path="/" component={LandingPage}></Route>
                     </Switch>
                 </Layout>

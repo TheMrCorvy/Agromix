@@ -6,7 +6,6 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -93,7 +92,11 @@ class Header extends React.Component {
                     fixed="top"
                     light
                     expand="md"
-                    className="bg-primary text-white">
+                    className="text-white py-3"
+                    style={{
+                        boxShadow:
+                            '0 0.22rem 0.525rem rgba(60, 68, 177, 0.4), 0 0.0625rem 0.385rem rgba(60, 68, 177, 0.54)'
+                    }}>
                     <Container>
                         <NavbarBrand href="/" className="text-white">
                             Agromix SA Buenos Aires

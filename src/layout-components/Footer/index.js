@@ -27,7 +27,7 @@ class Footer extends Component {
                                     <Button
                                         onClick={() => this.goToSection('inicio')}
                                         color="link"
-                                        className="m-2 btn-link-warning">
+                                        className="m-3 btn-link-warning">
                                         <span>Inicio</span>
                                     </Button>
                                 </NavItem>
@@ -35,7 +35,7 @@ class Footer extends Component {
                                     <Button
                                         onClick={() => this.goToSection('quienes-somos')}
                                         color="link"
-                                        className="m-2 btn-link-warning">
+                                        className="m-3 btn-link-warning">
                                         <span>Quiénes Somos</span>
                                     </Button>
                                 </NavItem>
@@ -43,7 +43,7 @@ class Footer extends Component {
                                     <Button
                                         onClick={() => this.goToSection('nuestros-productos')}
                                         color="link"
-                                        className="m-2 btn-link-warning">
+                                        className="m-3 btn-link-warning">
                                         <span>Nuestros Productos</span>
                                     </Button>
                                 </NavItem>
@@ -51,7 +51,7 @@ class Footer extends Component {
                                     <Button
                                         onClick={() => this.goToSection('contacto')}
                                         color="link"
-                                        className="m-2 btn-link-warning">
+                                        className="m-3 btn-link-warning">
                                         <span>Contacto</span>
                                     </Button>
                                 </NavItem>
@@ -64,7 +64,7 @@ class Footer extends Component {
                                         href="http://corvalangonzalo.xyz"
                                         target="_blank"
                                         color="link"
-                                        className="m-2 btn-link-first">
+                                        className="m-3 btn-link-first">
                                         <span>Gonzalo Salvador Corvalán</span>
                                     </Button>
                                 </p>
