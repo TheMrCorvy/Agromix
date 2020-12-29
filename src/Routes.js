@@ -21,11 +21,9 @@ const Routes = () => {
                         </Row>
                     </div>
                 }>
-                {/* algo */}
                 <Layout>
                     <Switch>
-                        <Redirect from="/agromix" to="/" />
-                        <Route exact path="/" component={LandingPage}></Route>
+                        <Route path="/" component={LandingPage}></Route>
                     </Switch>
                 </Layout>
             </Suspense>
