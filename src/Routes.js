@@ -23,7 +23,7 @@ const Routes = () => {
                 }>
                 <Layout>
                     <Switch>
-                        <Redirect from="/agromix" to="/" />
+                        {/* <Redirect from="/agromix" to="/" /> */}
                         <Route path="/" component={LandingPage} />
                     </Switch>
                 </Layout>
