@@ -34,8 +34,12 @@ class Header extends React.Component {
         });
     };
 
-    goToSection = section => {
-        console.log(section);
+    goToSection = (e, section) => {
+        e.preventDefault();
+        document.getElementById(section).scrollIntoView({
+            block: 'start',
+            behavior: 'smooth'
+        });
     };
 
     handleMouseOver = boton => {
@@ -98,17 +102,26 @@ class Header extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <a href="#" className="nav-link text-white">
+                                    <a
+                                        href="#"
+                                        onClick={e => this.goToSection(e, 'quienes-somos')}
+                                        className="nav-link text-white">
                                         Quiénes Somos
                                     </a>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="#" className="nav-link text-white">
+                                    <a
+                                        href="#"
+                                        onClick={e => this.goToSection(e, 'nuestros-productos')}
+                                        className="nav-link text-white">
                                         Nuestros Productos
                                     </a>
                                 </NavItem>
                                 <NavItem>
-                                    <a href="#" className="nav-link text-white">
+                                    <a
+                                        href="#"
+                                        onClick={e => this.goToSection(e, 'contacto')}
+                                        className="nav-link text-white">
                                         Contacto
                                     </a>
                                 </NavItem>

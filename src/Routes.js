@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { Layout } from './layout-blueprints';
 
@@ -16,6 +16,7 @@ const Routes = () => {
                 }>
                 <Layout>
                     <Switch>
+                        <Redirect from="/bamburgh-react-ui-kit-reactstrap-free-demo" to="/" />
                         <Route exact path="/" component={LandingPage}></Route>
                     </Switch>
                 </Layout>
