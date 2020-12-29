@@ -294,11 +294,11 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="px-5">
+                <div>
                     <div className="px-5">
-                        <div className="mb-5">
+                        {/* <div className="mb-5">
                             <Buttons />
-                        </div>
+                        </div> */}
                         <div className="mb-5">
                             <Dropdowns />
                         </div>
@@ -308,9 +308,9 @@ const LandingPage = () => {
                         <div className="mb-5">
                             <ProgressBars />
                         </div>
-                        <div className="mb-5">
+                        {/* <div className="mb-5">
                             <Pagination />
-                        </div>
+                        </div> */}
                         <div className="mb-5">
                             <Scrollable />
                         </div>
@@ -323,12 +323,12 @@ const LandingPage = () => {
                         <div className="mb-5">
                             <UtilitiesHelpers />
                         </div>
-                        <div className="mb-5">
+                        {/* <div className="mb-5">
                             <Cards3 />
-                        </div>
-                        <div className="mb-5">
+                        </div> */}
+                        {/* <div className="mb-5">
                             <ListGroups />
-                        </div>
+                        </div> */}
                         <div className="mb-5">
                             <Modals />
                         </div>
@@ -347,18 +347,18 @@ const LandingPage = () => {
                         <div className="mb-5">
                             <Tabs />
                         </div>
-                        <div className="mb-5">
+                        {/* <div className="mb-5">
                             <RegularTables1 />
                         </div>
                         <div className="mb-5">
                             <RegularTables4 />
-                        </div>
-                        <div className="mb-5">
+                        </div> */}
+                        {/* <div className="mb-5">
                             <FormsLayout />
-                        </div>
-                        <div className="mb-5">
+                        </div> */}
+                        {/* <div className="mb-5">
                             <FormsControls />
-                        </div>
+                        </div> */}
                         <div className="mb-5">
                             <Maps />
                         </div>
