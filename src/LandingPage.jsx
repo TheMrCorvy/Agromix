@@ -8,6 +8,7 @@ import { Button } from 'reactstrap';
 
 import QuienesSomos from './components/sections/QuienesSomos';
 import Patrocinadores from 'components/sections/Patrocinadores';
+import NuestrosProductos from 'components/sections/NuestrosProductos';
 
 const LandingPage = () => {
     return (
@@ -64,6 +65,9 @@ const LandingPage = () => {
                 <QuienesSomos />
                 <div className="px-0 py-5 mt-5 container-fluid">
                     <Patrocinadores />
+                </div>
+                <div className="px-0 py-5 mt-5 container-fluid bg-secondary">
+                    <NuestrosProductos />
                 </div>
             </div>
         </Fragment>
