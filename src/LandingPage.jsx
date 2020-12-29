@@ -4,33 +4,26 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import hero8 from './assets/imagenes/wallpaper.jpeg';
 
-import { Button, UncontrolledTooltip, Badge } from 'reactstrap';
+import { Button } from 'reactstrap';
 
-import IconsFontawesome from './example-components/Icons/IconsFontawesome';
 import IconsPe7 from './example-components/Icons/IconsPe7';
 
-import Buttons from './example-pages/Buttons';
 import Dropdowns from './example-pages/Dropdowns';
 import NavigationMenus from './example-pages/NavigationMenus';
 import ProgressBars from './example-pages/ProgressBars';
-import Pagination from './example-pages/Pagination';
 import Scrollable from './example-pages/Scrollable';
 import Badges from './example-pages/Badges';
 import Icons from './example-pages/Icons';
 import UtilitiesHelpers from './example-pages/UtilitiesHelpers';
-import Cards3 from './example-pages/Cards3';
-import ListGroups from './example-pages/ListGroups';
 import Modals from './example-pages/Modals';
 import Notifications from './example-pages/Notifications';
 import Carousels from './example-pages/Carousels';
 import Popovers from './example-pages/Popovers';
 import Tooltips from './example-pages/Tooltips';
 import Tabs from './example-pages/Tabs';
-import RegularTables1 from './example-pages/RegularTables1';
-import RegularTables4 from './example-pages/RegularTables4';
-import FormsLayout from './example-pages/FormsLayout';
-import FormsControls from './example-pages/FormsControls';
 import Maps from './example-pages/Maps';
+
+import QuienesSomos from './components/sections/QuienesSomos';
 
 const LandingPage = () => {
     return (
@@ -84,20 +77,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid pt-5 px-5">
-                    <div className="row">
-                        <div className="col-xl-6 bg-premium-dark">
-                            <div className="p-0 p-lg-5">
-                                <IconsFontawesome />
-                            </div>
-                        </div>
-                        <div className="col-xl-6 bg-midnight-bloom">
-                            <div className="p-0 p-lg-5">
-                                <IconsPe7 />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <QuienesSomos />
                 <div className="py-5 bg-secondary my-5">
                     <div className="container">
                         <div className="px-0 col-lg-8 col-md-10 col-sm-12 mx-auto text-center">
