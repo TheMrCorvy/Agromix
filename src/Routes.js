@@ -1,9 +1,9 @@
 import React, { lazy, Suspense } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { Layout } from './layout-blueprints';
 import Skeleton from 'react-loading-skeleton';
-import { Col, Row } from 'reactstrap';
+import { Row } from 'reactstrap';
 
 const LandingPage = lazy(() => import('./LandingPage'));
 

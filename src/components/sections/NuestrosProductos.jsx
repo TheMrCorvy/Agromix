@@ -68,6 +68,7 @@ export default function NuestrosProductos() {
                             <a
                                 href="http://www.biscayart.com/pdf/BiscayartCatalogo2020LQ.pdf"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="btn btn-link text-white h5">
                                 <u>Ver Catálogo Completo</u>
                                 <FontAwesomeIcon icon={faChevronRight} size="1x" className="ml-3" />

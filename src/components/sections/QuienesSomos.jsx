@@ -1,5 +1,5 @@
 import React, { Fragment, Component } from 'react';
-import { Col, Row, Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import { Col, Row, Button, Modal, ModalBody } from 'reactstrap';
 
 export default class QuienesSomos extends Component {
     constructor(props) {
