@@ -24,7 +24,7 @@ const Routes = () => {
                 <Layout>
                     <Switch>
                         <Redirect from="/agromix" to="/" />
-                        <Route exact path="/" component={LandingPage}></Route>
+                        <Route path="/" component={LandingPage} />
                     </Switch>
                 </Layout>
             </Suspense>
